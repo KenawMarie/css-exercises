@@ -24,5 +24,6 @@ body {
   width: 200px;
   /* CHANGE ME */
   padding: 30px;
-  margin-left: 330px;
+  margin-left: auto;
+  /* my answer margin-left: 330px; */
 }
