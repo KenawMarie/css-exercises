@@ -1,6 +1,16 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .header  {
   font-family: monospace;
   background: papayawhip;
+  margin:0.8rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -11,15 +21,23 @@
   padding: 4px 32px;
 }
 
-ul {
+ul{width: 100%;
+    min-width: 220px;
   /* this removes the dots on the list items*/
   list-style-type: none;
+  margin:auto;
+  padding: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex:1 100%;
 }
 
-a {
+a { 
   font-size: 22px;
   background: white;
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  display: block;
 }
