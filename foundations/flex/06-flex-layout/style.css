@@ -10,7 +10,15 @@ body {
 img {
   width: 600px;
 }
-
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul a{
+  text-decoration: none;
+  color: #36454F;
+}
 button {
   font-family: Roboto, sans-serif;
   border: none;
@@ -23,4 +31,14 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.left-links,.right-links{
+  display: flex;
+  gap: 1rem;
+  margin: 0.5em;
+  padding: 0.5em;
 }
